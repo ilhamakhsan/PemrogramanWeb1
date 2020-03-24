@@ -1,0 +1,320 @@
+body{
+	margin: 0;
+}
+
+@font-face{
+	font-family: Poppins;
+	src:url("../assets/Poppins/Poppins-Medium.ttf");
+}
+
+@font-face{
+	font-weight: bold;
+	src:url("../assets/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face{
+	font-weight: lighter;
+	src:url("../assets/Poppins/Poppins-Light.ttf");
+}
+
+h1{
+	font-family: Poppins;
+}
+
+h2{
+	font-family: Poppins;
+}
+
+h3{
+	font-family: Poppins;
+}
+
+h4{
+	font-family: Poppins;
+	font-weight: lighter;
+}
+
+h5{
+	font-family: Poppins;
+	font-weight: lighter;
+	color: #747474;
+}
+
+h6{
+	font-family: Poppins;
+	font-weight: lighter;
+}
+p{
+	font-family: Poppins;
+	font-weight: lighter;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.bg-color1{
+	background-color: #EEEEEE;
+}
+
+.bg-color2{
+	background-color: #F6F7F8;
+}
+
+.strip{
+	display: none;
+}
+
+.black .hidden ul li {
+	color: #000000;
+}
+
+.black .hidden ul li a {
+	color: #000000;
+}
+
+.white.hidden ul li a h4{
+	color: #ffffff;
+}
+
+.white .hidden ul li {
+	color: #ffffff;
+}
+
+.black .hidden ul li a hr{
+	margin: 0;
+	margin-top: -20px;
+}
+
+.hidden{
+	width: 80%;
+}
+.hidden ul{
+	list-style-type: none;
+	display: inline-flex;
+	width: 100%;
+}
+
+.hidden ul li{
+	list-style-type: none;
+	display: inline-flex;
+	width: 20%;
+	color: #ffffff;
+	transition: ease 0.5s
+}
+
+.hidden ul li:hover{
+	cursor: pointer;
+	color: #8bbf36;
+}
+
+.hidden ul li h4{
+	margin-top: 0;
+}
+.logo{
+	margin-top: 15px;
+}
+
+
+.button-pink{
+	background-color: #8bbf36;
+	width: 80%;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: -15px;
+	border-radius: 30px;
+	height: 50px;
+	border: 0;
+	color: #ffffff;
+	transition: ease 0.5s
+
+}
+
+.button-pink:hover{
+	cursor: pointer;
+	background-color: #ffffff;
+	color: #8bbf36;
+	width: 80%;
+	font-size: 16px;
+	margin-top: -15px;
+	border-radius: 30px;
+	height: 50px;
+	border: 0;
+
+}
+
+.button-pink-s:hover{
+	cursor: pointer;
+	background-color: #ffffff;
+	color: #8bbf36;
+	width: 120px;
+	border-radius: 50px;
+	height: 50px;
+	border: 0;
+
+}
+
+.button-trans{
+	background-color: transparent;
+	width: 50%;
+	margin-top: -15px;
+	border-radius: 30px;
+	height: 50px;
+	border: 4 #ffffff;
+	color: #ffffff;
+	font-size: 18px;
+
+}
+
+.button-white{
+	background-color: #ffffff;
+	width: 50%;
+	color: #8bbf36;
+	margin-top: -15px;
+	border-radius: 30px;
+	height: 50px;
+	border:0;
+	font-size: 18px;
+
+}
+
+.button-pink-s{
+	background-color: #8bbf36;
+	width: 120px;
+	border-radius: 50px;
+	height: 50px;
+	border: 0;
+	color: #ffffff;
+	transition: ease 0.5s
+
+}
+.kotak-grafik{
+	width: 500px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	display: inline-block;
+	margin: 10px;	
+}
+.grafiknya{
+	width: 100%;
+}
+.card{
+	width: 270px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	display: inline-block;
+	margin: 10px;
+}
+
+.card-head img{
+	width: 100%;
+}
+
+.card-content{
+	padding: 12px;
+}
+
+.card-content h5{
+	margin:0;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 14px;
+
+}
+
+.card-content h3{
+	margin:0;
+	font-weight: lighter;
+
+}
+
+.corner{
+	width: 100px;
+	height: 30px;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 10px;
+	position: absolute;
+	background-color: #8bbf36;
+	color: #ffffff;
+}
+
+.corner h6{
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+.card-content h6{
+	margin:0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: lighter;
+
+}
+
+.card-content h4{
+	margin:0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 12px;
+
+}
+
+.card-content p{
+	color: #8bbf36;
+	font-size: 14px;
+}
+
+.card2{
+	width: 350px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	display: inline-block;
+	margin: 15px;
+}
+
+.card-head2 img{
+	width: 100%;
+}
+
+.love{
+	margin-left: auto;
+	margin-right: 0;
+	float: right;
+}
+
+.card-content3 h6{
+	margin: 0px;
+	color: #747474;
+}
+
+.card-content3 h3{
+	margin:0;
+}
+
+.card-content3{
+	padding: 8px;
+}
+
+.card-content3 h4{
+	margin: 0px;
+	margin-top: 10px;
+	color: #747474;
+	font-size: 14px;
+}
+
+.card-content3 p{
+	margin: 0px;
+	margin-top: 20px;
+	color: #8bbf36;
+}
+
+.footer h4{
+	font-size: 14px;
+}
+
+.footer h3{
+	color: #8bbf36;
+}
+

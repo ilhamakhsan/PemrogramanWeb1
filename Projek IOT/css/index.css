@@ -1,0 +1,51 @@
+.highlight h1{
+	width: 50%;
+	color: rgb(43, 43, 43);
+}
+
+.highlight h4{
+	width:60%;
+	color: rgb(43, 43, 43);
+}
+
+.highlight input{
+	width: 70%;
+	padding-left: 30px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	height:25px;
+	border-radius: 50px;
+	border: 0;
+}
+
+.subtitle h4{
+	line-height: 40px;
+	width: 50%;
+}
+
+.fitur{
+	display: inline-block;
+	width: 30%;
+}
+.fitur h4{
+	line-height: 40px;
+}
+
+.foot-img{
+	width: 100%;
+	background-image: url("../assets/foot.svg");
+	padding-left: 100px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	box-sizing: border-box;
+}
+
+.foot-img h1{
+	width: 500px;
+	margin: 0;
+	color: rgb(43, 43, 43)
+}
+
+.foot-img h4{
+	color: rgb(43, 43, 43)
+}

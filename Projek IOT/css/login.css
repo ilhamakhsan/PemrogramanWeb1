@@ -1,0 +1,41 @@
+.form{
+	height: 50px;
+	font-size: 14px;
+	width: 95%;
+	padding-left: 20px;
+	border-radius: 10px;
+	border-color: #ababab;
+}
+
+p{
+	color: #8bbf36;
+}
+
+.button-pink-xl{
+	background-color: #8bbf36;
+	width: 100%;
+	border-radius: 30px;
+	height: 50px;
+	border: 0;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+
+}
+
+.log{
+	display: inline-flex;
+	background-color: #ffffff;
+	border-radius: 30px;
+	width: 50%;
+	border: 2 solid #000000;
+	padding-left:20px;
+}
+
+.log h3{
+	font-weight: lighter;
+}
+
+span{
+	color: #8bbf36
+}
